@@ -1,0 +1,1 @@
+module.exports={testDir:'./test',testMatch:'ui.spec.cjs',timeout:30000,use:{headless:true,viewport:{width:412,height:915},launchOptions:{executablePath:process.env.CHROME_PATH||(process.env.CI?undefined:'/usr/bin/google-chrome'),args:['--no-sandbox']}},reporter:'list'};
